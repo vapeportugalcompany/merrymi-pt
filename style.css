@@ -1135,6 +1135,17 @@ summary {
   .main-nav a:last-child {
     border-bottom: none;
   }
+
+  .footer-span-list {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+
+  .footer-span-list li,
+  .footer-span-list a {
+    width: 100%;
+  }
 }
 
 @media (max-width: 720px) {
